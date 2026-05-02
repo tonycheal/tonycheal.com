@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Design resources — for Keely</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #d0cfc8;
+    color: #111;
+    font-family: 'Courier Prime', monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 60px;
+  }
+
+  .card {
+    background: #e8e6de;
+    border: 1px solid #999;
+    max-width: 680px;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 4px 4px 0 #999;
+  }
+
+  .header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    border-bottom: 2px solid #111;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-family: 'Special Elite', serif;
+    font-size: 1.8rem;
+    letter-spacing: -1px;
+  }
+
+  .spade { font-size: 1.4rem; }
+
+  .preamble {
+    font-size: 0.88rem;
+    color: #333;
+    margin-bottom: 28px;
+    line-height: 1.65;
+  }
+
+  section { margin-bottom: 28px; }
+
+  h2 {
+    font-family: 'Special Elite', serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 4px;
+  }
+
+  .blurb {
+    font-size: 0.82rem;
+    color: #555;
+    margin-bottom: 8px;
+    font-style: italic;
+  }
+
+  ul { list-style: none; padding: 0; }
+
+  ul li {
+    padding: 6px 0;
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+
+  ul li::before {
+    content: '♠ ';
+    color: #555;
+  }
+
+  ul li strong { font-weight: 700; }
+
+  ul li .note { color: #555; }
+
+  a {
+    color: #111;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  a:hover { color: #555; }
+
+  .closing {
+    font-size: 0.78rem;
+    color: #666;
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px dashed #aaa;
+    line-height: 1.6;
+  }
+
+  .footer {
+    max-width: 680px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 0.75rem;
+    color: #777;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  .upside-down {
+    display: block;
+    transform: rotate(180deg);
+    margin-top: 8px;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="header">
+    <h1>Design Resources</h1>
+    <span class="spade">♠</span>
+  </div>
+
+  <p class="preamble">
+    A starter pack for Keely (and the girls) — where to go for fonts, colour, icons, and inspiration. The web has moved on a fair bit since we last did this in&nbsp;earnest. Hopefully this helps you skip the "what does everyone use now?" stage.
+  </p>
+
+  <section>
+    <h2>Type &amp; Fonts</h2>
+    <ul>
+      <li><strong><a href="https://fonts.google.com/">Google Fonts</a></strong><span class="note"> — Still the easy default. Much improved: supports variable fonts, previews in&nbsp;context, decent search.</span></li>
+      <li><strong><a href="https://www.fontshare.com/">Fontshare</a></strong><span class="note"> — Indian Type Foundry's free quality library. What a lot of working designers reach for now — feels less "stock" than Google Fonts.</span></li>
+      <li><strong><a href="https://fonts.bunny.net/">Bunny Fonts</a></strong><span class="note"> — Privacy-respecting drop-in mirror of Google Fonts. Same fonts, no Google tracking. Use the same names as Google Fonts.</span></li>
+      <li><strong><a href="https://velvetyne.fr/">Velvetyne</a></strong><span class="note"> — Indie/experimental free fonts. Characterful and a bit weird in the best way.</span></li>
+      <li><strong><a href="https://pangrampangram.com/">Pangram Pangram</a></strong><span class="note"> — Modern foundry; mix of free and paid. Lovely contemporary work.</span></li>
+      <li><strong><a href="https://wordmark.it/">Wordmark.it</a></strong><span class="note"> — Paste your text, see it rendered in every font you have installed. Saves a lot of clicking.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Colour</h2>
+    <ul>
+      <li><strong><a href="https://www.realtimecolors.com/">Realtime Colors</a></strong><span class="note"> — Live-preview a palette applied to a real example site. The single best way to gut-check a colour scheme.</span></li>
+      <li><strong><a href="https://coolors.co/">Coolors</a></strong><span class="note"> — Palette generator and huge searchable library. The standard.</span></li>
+      <li><strong><a href="https://colorhunt.co/">Color Hunt</a></strong><span class="note"> — Curated daily palette feed; good for browsing.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Icons</h2>
+    <ul>
+      <li><strong><a href="https://phosphoricons.com/">Phosphor Icons</a></strong><span class="note"> — Six weights, broad coverage. Current go-to for most projects.</span></li>
+      <li><strong><a href="https://lucide.dev/">Lucide</a></strong><span class="note"> — Minimal line icons; the well-maintained fork of Feather.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Inspiration</h2>
+    <ul>
+      <li><strong><a href="https://land-book.com/">Land Book</a></strong><span class="note"> — Curated showcase of clean, modern sites. Heavy on contemporary product/agency work.</span></li>
+      <li><strong><a href="https://www.siteinspire.com/">SiteInspire</a></strong><span class="note"> — Broader showcase, well-tagged. Around for years and still good.</span></li>
+      <li><strong><a href="https://www.are.na/">Are.na</a></strong><span class="note"> — Quiet alternative to Pinterest; designers' moodboarding tool of choice. Less algorithmic, more considered.</span></li>
+      <li><strong><a href="https://fontsinuse.com/">Fonts in Use</a></strong><span class="note"> — Real-world examples of typefaces in context. Once you've shortlisted a font, see who else has used it and how.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Photographer Portfolios</h2>
+    <p class="blurb">For Sapphire, if she ever wants a turnkey hosted option rather than rolling her own:</p>
+    <ul>
+      <li><strong><a href="https://format.com/">Format</a></strong><span class="note"> — Photographer-focused, clean themes.</span></li>
+      <li><strong><a href="https://cargo.site/">Cargo</a></strong><span class="note"> — Designer-favourite, more flexible and creative.</span></li>
+      <li><strong><a href="https://pixieset.com/">Pixieset</a></strong> &amp; <strong><a href="https://www.pic-time.com/">Pic-Time</a></strong><span class="note"> — Client galleries (delivery, proofing). Different category, also useful for working photographers.</span></li>
+      <li><strong><a href="https://www.squarespace.com/">Squarespace</a></strong><span class="note"> — No-code, works fine if speed-to-launch matters more than craft.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Markdown / Blogging</h2>
+    <p class="blurb">A modern way to run a blog or "digital garden" — write in Markdown (in Obsidian, iA Writer, or anything plain-text) and publish to the web. Several routes:</p>
+    <ul>
+      <li><strong><a href="https://astro.build/">Astro</a></strong><span class="note"> — Modern static site generator, very popular for content sites. Theme gallery at <a href="https://astro.build/themes/">themes.astro.build</a>. Build runs locally; deploy the output to Cloudflare Pages/Workers — same plumbing we just set up.</span></li>
+      <li><strong><a href="https://obsidian.md/publish">Obsidian Publish</a></strong><span class="note"> — Official paid service (~$8/month); hit "publish" from inside Obsidian. The lowest-friction path if you're already an Obsidian user.</span></li>
+      <li><strong><a href="https://quartz.jzhao.xyz/">Quartz</a></strong><span class="note"> — Free open-source alternative. Builds an Obsidian vault into a static site. Maggie Appleton's site runs on Quartz. More setup, more design control.</span></li>
+      <li><strong><a href="https://bearblog.dev/">Bear Blog</a></strong><span class="note"> — Minimal hosted Markdown blogging. Sign up, start writing. Free. Good when you want zero plumbing.</span></li>
+      <li><strong><a href="https://ghost.org/">Ghost</a></strong><span class="note"> — Beefier hosted platform (~$9/month). Worth knowing about if Bear feels too sparse.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>General</h2>
+    <ul>
+      <li><strong><a href="https://www.figma.com/">Figma</a></strong><span class="note"> — Design tool. Now the industry standard, runs in the browser, free tier is generous.</span></li>
+      <li><strong><a href="https://practicaltypography.com/">Practical Typography</a></strong><span class="note"> — Butterick's free book. Typography first principles, clear and opinionated. Worth an evening.</span></li>
+      <li><strong><a href="https://codepen.io/">CodePen</a></strong><span class="note"> — Sandbox for quick HTML/CSS experiments without a project.</span></li>
+    </ul>
+  </section>
+
+  <p class="closing">
+    This is a "where to start" not a "where to stop". Each link leads to a dozen more if you follow the breadcrumbs. Add to it as you find better.
+  </p>
+</div>
+
+<div class="footer">
+  <span>tonycheal.com / for-keely</span>
+  <span class="upside-down">♠ Tony Cheal</span>
+</div>
+
+</body>
+</html>
